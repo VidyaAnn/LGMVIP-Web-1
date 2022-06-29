@@ -1,0 +1,62 @@
+body 
+{
+    margin: 0;
+    background-color: darkslategrey;
+}
+.container 
+{
+    width: 85%;
+    margin: 20px auto;
+    border: 1px solid ;
+    padding: 15px;
+    background-color: whitesmoke;
+    font-size:larger;
+    text-align:center;
+}
+.input-section 
+{
+    display: flex;
+}
+.input-section input 
+{
+    flex: 1;
+    padding: 05px;
+    flex: 1;
+    font-size: 16px;
+    font-style: italic;
+}
+.input-section .submit-btn 
+{
+    cursor: pointer;
+    padding: 10px;
+    background-color: lightgreen;
+    border: 0;
+    color: white;
+}
+.listing-section ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.listing-section ul li 
+{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.listing-section ul li span.done 
+{
+    text-decoration: line-through ;
+    text-decoration-color: lightgreen;
+}
+.listing-section ul li .close 
+{
+    background-color: lightgreen;
+    color: black;
+    padding: 12px;
+    cursor: pointer;
+}
